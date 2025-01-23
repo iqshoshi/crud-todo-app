@@ -1,0 +1,84 @@
+h1, h2{
+    font-family: monospace;
+    text-align: center;
+}
+
+table{
+    font-family: monospace;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+th, td{
+    padding-left: 3px;
+    padding-right: 3px;;
+}
+.button-update-cmpltd{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+}
+.button-update-incmplt{
+    background-color: #1275cb; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+}
+.button-delete{
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+}
+.no-task-found{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.add-task-form {
+    margin-bottom: 20px;
+    width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 0;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-task-form input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.add-task-button {
+    background-color: #5d6c66;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-family: monospace;
+    
+}
